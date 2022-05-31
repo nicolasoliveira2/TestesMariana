@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="PdfSharp" Version="1.50.5147" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestesMariana.Dominio\TestesMariana.Dominio.csproj" />
+  </ItemGroup>
+
+</Project>
